@@ -1,0 +1,101 @@
+body {
+    font-family: 'Playfair Display', serif;
+    /* background: rgb(169,241,223);
+    background: -moz-linear-gradient(343deg, rgba(169,241,223,0.5004202364539565) 0%, rgba(255,255,255,1) 25%, rgba(255,255,255,1) 50%, rgba(255,255,255,1) 75%, rgba(255,187,187,0.5) 100%);
+    background: -webkit-linear-gradient(343deg, rgba(169,241,223,0.5004202364539565) 0%, rgba(255,255,255,1) 25%, rgba(255,255,255,1) 50%, rgba(255,255,255,1) 75%, rgba(255,187,187,0.5) 100%);
+    background: linear-gradient(343deg, rgba(169,241,223,0.5004202364539565) 0%, rgba(255,255,255,1) 25%, rgba(255,255,255,1) 50%, rgba(255,255,255,1) 75%, rgba(255,187,187,0.5) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#a9f1df",endColorstr="#ffbbbb",GradientType=1);  */
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    position: sticky;
+    top: 1.5rem;
+    background-color: #fff;
+}
+
+@media (max-width: 768px) {
+    /* nav {
+        top: 1.5rem !important;
+    } */
+
+    header {
+        margin-top: 1rem !important;
+    }
+
+    header h1 {
+        font-size: 3rem !important;
+    }
+
+    header h1 span {
+        font-size: 3rem !important;
+    }
+
+    .introductoryContainer {
+        margin-top: 1.2rem !important;
+    }
+}
+
+.hoverpointer:hover {
+    cursor: pointer;
+}
+
+
+header {
+    margin-top: 15rem;
+    --animate-duration: 2.3s;
+}
+
+
+header h1 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    font-size: 5rem;
+    --animate-duration: 1s;
+}
+
+header h1 span {
+    font-family: 'Alex Brush', cursive;
+    font-size: 6rem;
+}
+
+header h5{
+    display: flex;
+    justify-content: center;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 2.5rem;
+}
+
+/* .basicInfoContainer {
+    width: 100%;
+    padding: 10rem 1rem 0rem 1rem;
+} */
+
+section {
+    width: 100%;
+    padding: 15rem 1rem 0rem 1rem;
+}
+
+footer {
+    width: 100%;
+    padding: 10rem 1rem 0rem 1rem;
+}
+
+
+.contactMebtn {
+    border: 1px solid #bbb;
+}
+
+.contactMebtn:hover {
+    background-color: #555;
+    color: #fff;
+}
+
+i:hover {
+    cursor: pointer;
+}
