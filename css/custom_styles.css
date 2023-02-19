@@ -67,10 +67,25 @@ a:hover {
 
 
 header {
-    padding-top: 15rem;
+    padding-top: 7rem;
     --animate-duration: 2.3s;
 }
 
+#Title {
+    /* border: 1px solid #000; */
+    position: relative;
+    top: -3rem;
+}
+
+#Title::before {
+    border: 1px solid #000;
+    display: flex;
+    justify-content: center;
+    content: "hello potatato";
+    padding-top: 3rem;
+    top: -3rem;
+    visibility: hidden;
+}
 
 .greetings {
     display: flex;
