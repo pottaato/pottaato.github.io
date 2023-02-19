@@ -39,16 +39,28 @@
     <body>
         <nav>
             <div class="hoverpointer">
-                <img src="assets/logo_temp.png" style="height: auto; max-width: 2.5rem;"/>
-                &ensp;Pearl Samantha
+                <a href="#Title">
+                    <img src="assets/logo_temp.png" style="height: auto; max-width: 2.5rem;"/>
+                    &ensp;Pearl Samantha
+                </a>
             </div>
             <div class="row d-flex justify-content-end">
-                <div class="col hoverpointer">About</div>
-                <div class="col hoverpointer">Contacts</div>
+                <div class="col hoverpointer">
+                    <a href="#About">About</a>
+                </div>
+                <div class="col hoverpointer">
+                    <a href="#Contacts">Contacts</a>
+                </div>
             </div>
         </nav>
-        <header class="animate__animated animate__fadeIn">
-            <h1 class="animate__animated animate__fadeIn">Hello, I am &emsp13;<span>Pearl  Samantha.</span></h1>
+        <div id="Title">&nbsp;</div>
+        <header class="container animate__animated animate__fadeIn">
+            <div class="greetings animate__animated animate__fadeIn">
+                <span class="hello">
+                    Hello,&emsp13;I am 
+                    <span class="pearlsamantha">Pearl Samantha.</span>
+                </span>
+            </div>
             <h5>An aspired Front-End Developer</h5>
             <div class="d-flex justify-content-center pt-5">
                 <btn class="btn contactMebtn">
@@ -56,7 +68,7 @@
                 </btn>
             </div>
         </header>
-        <section class="container">
+        <section class="container" id="About">
             <div class="row row-cols-1 row-cols-md-2">
                 <!--intro left-->
                 <div class="col">
@@ -103,7 +115,7 @@
                 </div>
             </div>
         </section>
-        <section class="container">
+        <section class="container" id="Contacts">
             <div class="row row-cols-1 row-cols-md-1">
                 <div class="col">
                     <h1 class="pb-4">Enquiries</h1>
