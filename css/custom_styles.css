@@ -1,7 +1,7 @@
 body {
     font-family: 'Playfair Display', serif;
     /* font-family: 'Gloock', serif; */
-    color: #212464;
+    color: #272B73;
     /* background: rgb(169,241,223);
     background: -moz-linear-gradient(343deg, rgba(169,241,223,0.5004202364539565) 0%, rgba(255,255,255,1) 25%, rgba(255,255,255,1) 50%, rgba(255,255,255,1) 75%, rgba(255,187,187,0.5) 100%);
     background: -webkit-linear-gradient(343deg, rgba(169,241,223,0.5004202364539565) 0%, rgba(255,255,255,1) 25%, rgba(255,255,255,1) 50%, rgba(255,255,255,1) 75%, rgba(255,187,187,0.5) 100%);
@@ -143,7 +143,7 @@ header {
     /* font-family: 'Alex Brush', cursive; */
     font-family: 'Gloock', serif;
     color: #525AF2;
-    text-shadow: 1px 1px 1px #212464;
+    text-shadow: .05rem .05rem .05rem #272B73;
     font-size: 5rem;
 }
 
