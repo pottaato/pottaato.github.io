@@ -41,7 +41,7 @@ nav {
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
     position: -webkit-sticky;
-    position: sticky;
+    position: sticky; 
     top: 0;
     background-color: #fff;
     z-index: 999;
@@ -163,6 +163,28 @@ header h5{
 section {
     width: 100%;
     padding: 15rem 1rem 0rem 1rem;
+}
+
+.about, .skill, .contacts {
+    visibility: hidden;
+}
+
+.show-section {
+    animation-name: showSection;
+    animation-duration: 1s;
+    visibility: visible;
+}
+
+@keyframes showSection {
+    0% {
+        opacity: 0;
+        transform: translateY(10%);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0%);
+    }
 }
 
 footer {
