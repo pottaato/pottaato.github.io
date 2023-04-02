@@ -50,3 +50,25 @@ body {
 .animate__animated.animate__flash {
     animation-delay: 1s;
 }
+
+.white-circle {
+    position: absolute;
+    height: 3.6rem;
+    width: 3.6rem;
+    z-index: 99;
+    top: 40.5rem;
+    left: 38.7rem;
+    color: black !important;
+    background-color: #fff;
+    border-radius: 50%;
+    /* border: 1px solid plum; */
+}
+
+.white-circle:hover {
+    cursor: pointer;
+    background-color: #ddd;
+}
+
+.white-circle:active {
+    background-color: #ccc;
+}
