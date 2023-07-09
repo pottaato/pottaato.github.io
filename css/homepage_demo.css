@@ -1,0 +1,68 @@
+body {
+    font-family: Tahoma, sans-serif;
+    background-color: #323232;
+}
+
+nav{
+    /* border: 1px solid white;
+    background-color: indigo; */
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    z-index: 99;
+    color: #fdfdfd;
+    font-weight: 600;
+}
+
+.start {
+    /* border: 1px solid red; */
+    position: relative;
+    left: 5%;
+    line-height: 1.4;
+}
+
+.navbar-container {
+    /* border: 1px solid red; */
+    position: absolute;
+    right: 0;
+}
+
+.navbar-content {
+    /* border: 1px solid yellow; */
+    padding: .03rem 2rem;
+}
+
+.landing-bg {
+    /* border: 1px solid lime; */
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../assets/main-flamingo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+}
+
+.landing-container {
+    /* border: 1px solid magenta; */
+    color: #fdfdfd;
+    position: relative;
+    top: 46%;
+}
+
+.landing-container h1 {
+    letter-spacing: .18rem;
+    padding: 1rem 2rem 2rem 0;
+    font-size: 3rem;
+}
+
+.landing-container button {
+    border: 1px solid #fbfbfb;
+    background-color: transparent;
+    color: #fbfbfb;
+    padding: 1rem 7rem;
+    font-size: larger;
+    letter-spacing: .1rem;
+    font-weight: 600;
+    /* filter: blur(8px);
+    -webkit-filter: blur(8px); */
+}
