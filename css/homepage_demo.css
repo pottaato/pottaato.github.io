@@ -32,6 +32,10 @@ nav{
     padding: .03rem 2rem;
 }
 
+.navbar-content:hover {
+    cursor: pointer;
+}
+
 .landing-bg {
     /* border: 1px solid lime; */
     width: 100vw;
